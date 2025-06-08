@@ -4,6 +4,7 @@ import textInputBlockStyles from "@/devlink/TextInputBlock.module.css";
 import styles from "./GhTable.module.css";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+console.log("Deployed Base Path Value:", basePath);
 
 // Types
 export type Job = {
